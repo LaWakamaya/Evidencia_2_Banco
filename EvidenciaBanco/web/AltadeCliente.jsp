@@ -67,7 +67,7 @@
         
         <div class="form-group">
         <label>Fecha de Nacimiento:</label>
-        <input class ="form-group"  type ="text" name="fechaNacimiento">
+        <input class ="form-group"  type ="date" name="fechaNacimiento">
         </div>
         
         <div class="form-group">
