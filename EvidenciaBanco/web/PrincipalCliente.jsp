@@ -16,7 +16,7 @@
     </head>
     <body background="olis.jpg" >
         
-        <h1>BIENVENIDO CLIENTE </h1>
+    <center><h1>BIENVENIDO CLIENTE </h1></center>
          <div class="container col-lg-3">
         <form action=" ">
              <div class=" form-group text-center">
@@ -25,7 +25,7 @@
             </div>
             
          <br>  
-         <a href="DetallesCuenta.jsp">
+         <a href="DetallesCuentaCliente.jsp">
         <input class="btn  btn-danger btn-block" type="button"  value="Detalles de la Cuenta">
          </a>
          <br>  
