@@ -48,7 +48,10 @@
         <input  class ="form-group" type ="date" name="fecha">
         </div>
            <input class="btn  btn-danger btn-block" type="submit" name="Guardarcuenta" value="Guardar">
-          
+              <br>
+        <a href="PrincipalAdministrador.jsp">
+            <input class="btn  btn-danger btn-block" type="button" value ="Pagina Principal">
+            <br>
         </div>
     </body>
 </html>

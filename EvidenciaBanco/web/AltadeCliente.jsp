@@ -80,5 +80,9 @@
         <input class ="form-group" type="password" maxlength="10" name="password" value="">
         </div>
              <input class="btn  btn-danger btn-block" type="submit" name="Guardar" value="Entrar">
+             <br>
+              <a href="PrincipalAdministrador.jsp">
+            <input class="btn  btn-danger btn-block" type="button" value ="Pagina Principal">
+            <br>
 </body>
 </html>
