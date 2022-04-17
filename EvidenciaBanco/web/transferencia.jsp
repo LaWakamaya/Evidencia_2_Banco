@@ -43,6 +43,11 @@
         </div>
              <input class="btn  btn-danger btn-block" type="submit" name="guardartrans" value="Transferir">
              
+             <br>
+        <a href="PrincipalCliente.jsp">
+        <input class="btn  btn-danger btn-block" type="button"  value=" Pagina Principal">
+        </a>
+             
            
     </body>
 </html>
