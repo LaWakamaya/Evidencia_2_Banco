@@ -4,9 +4,37 @@
         <servlet-name>IndexServelt</servlet-name>
         <servlet-class>IndexServelt</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AltaClienteServlet</servlet-name>
+        <servlet-class>AltaClienteServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AltaClienteSer</servlet-name>
+        <servlet-class>AltaClienteSer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>altaCliente</servlet-name>
+        <servlet-class>vistas.altaCliente</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>dos</servlet-name>
+        <servlet-class>vistas.dos</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>IndexServelt</servlet-name>
         <url-pattern>/IndexServelt</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AltaClienteSer</servlet-name>
+        <url-pattern>/AltaClienteSer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>altaCliente</servlet-name>
+        <url-pattern>/altaCliente</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>dos</servlet-name>
+        <url-pattern>/dos</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

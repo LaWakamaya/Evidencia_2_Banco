@@ -1,13 +1,14 @@
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class ConexionMySQL {
     public static void main(String[] args) {
         connect();
     }
     public static void connect(){
-        Connection conn=null; //Iniciamos con la coneccion
+        Connection conn= null; //Iniciamos con la coneccion
         String driver ="com.mysql.jdbc.Driver";//Ruta del driver para el jsp!!
         try{
           Class.forName(driver); //Acedemos a class.for name, nos ayuda a verificar si el driver si conecto
@@ -17,12 +18,13 @@ public class ConexionMySQL {
             if(conn!=null){
                 System.out.println("Conexion realizada :3!!");
             } 
-            }catch(Exception e){
+            }catch(SQLException e){
                 System.out.println("ERROR AL CONECTAR"+e.getMessage());
             }
             
-        }catch(Exception e){
+        }catch(ClassNotFoundException e){
             System.out.print("no se conectio qui qui"+e.getMessage());
         }
     }
+    
 }

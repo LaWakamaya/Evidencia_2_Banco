@@ -16,10 +16,10 @@
      <body  background="olis.jpg">
          
     <center><h1>ALTA DE CLIENTE </h1></center>
-    
+   
       <div class="container col-lg-3">
       
-        <form action="Principal">
+         <form action="NewServlet" method="post">
            <div class=" form-group text-center">
             <img src="iconoo.png" height="180" width="180"  >
             <p><strong>Por favor ingrese los datos correspondientes<strong></p>
@@ -27,22 +27,22 @@
             
         <div class="form-group">
         <label>Nombre:</label>
-        <input  class ="form-group" type ="text" name="nombre">
+        <input  class ="form-group" type ="text" name="nombreCliente">
         </div>
         
         <div class="form-group">
         <label>Apellido:</label>
-        <input class ="form-group" type ="text" name="apellido">
+        <input class ="form-group" type ="text" name="apellidoCliente">
         </div>
         
         <div class="form-group">
         <label>Direccion:</label>
-        <input class ="form-group" type ="text" name="direccion">
+        <input class ="form-group" type ="text" name="direccionCliente">
         </div>
         
         <div class="form-group">
         <label>C.P:</label>
-        <input class ="form-group" type ="text" name="cp">
+        <input class ="form-group" type ="text" name="cpCliente">
         </div>
         
         <div class="form-group">
@@ -84,5 +84,6 @@
               <a href="PrincipalAdministrador.jsp">
             <input class="btn  btn-danger btn-block" type="button" value ="Pagina Principal">
             <br>
+            </form>
 </body>
 </html>
