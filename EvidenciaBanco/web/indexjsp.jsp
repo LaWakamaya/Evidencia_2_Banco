@@ -1,9 +1,11 @@
-<!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
+<%-- 
+    Document   : indexjsp
+    Created on : 26 abr. 2022, 14:33:48
+    Author     : alexa
+--%>
 
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Login</title>
@@ -39,8 +41,3 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         
     </body>
 </html>
-
-
-<!--<!-- asdaaaasdsafgdfgdfgfsdbxcgdf -->
-
-<!--comentario 2-->
