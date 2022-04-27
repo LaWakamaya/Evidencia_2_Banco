@@ -38,6 +38,14 @@ public class Usuario {
          
 
     }
+
+    Usuario(int idUsuario, int CP, int Telefono, int IdNumerocuenta, int TipoCuenta, String Nombre, String Apellido, String Direccion, String Ciudad, String Estado, String Pais, String FechaNacimiento, String CorreoEletronico, String string) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    Usuario(int idUsuario, int CP, int Telefono, int IdNumerocuenta, int TipoCuenta, String Nombre, String Apellido, String Direccion, String Ciudad, String Estado, String Pais, String FechaNacimiento, String CorreoEletronico, String Contrasena, boolean Administrador) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
        
 

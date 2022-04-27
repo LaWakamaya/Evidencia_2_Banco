@@ -32,10 +32,6 @@
         <servlet-name>altaCliente</servlet-name>
         <url-pattern>/altaCliente</url-pattern>
     </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>dos</servlet-name>
-        <url-pattern>/dos</url-pattern>
-    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
