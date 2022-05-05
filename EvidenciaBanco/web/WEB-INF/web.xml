@@ -1,36 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>IndexServelt</servlet-name>
-        <servlet-class>IndexServelt</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>AltaClienteServlet</servlet-name>
-        <servlet-class>AltaClienteServlet</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>AltaClienteSer</servlet-name>
-        <servlet-class>AltaClienteSer</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>altaCliente</servlet-name>
-        <servlet-class>vistas.altaCliente</servlet-class>
-    </servlet>
-    <servlet>
-        <servlet-name>dos</servlet-name>
-        <servlet-class>vistas.dos</servlet-class>
+        <servlet-name>BancoServlet</servlet-name>
+        <servlet-class>Servlet.BancoServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>IndexServelt</servlet-name>
-        <url-pattern>/IndexServelt</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>AltaClienteSer</servlet-name>
-        <url-pattern>/AltaClienteSer</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
-        <servlet-name>altaCliente</servlet-name>
-        <url-pattern>/altaCliente</url-pattern>
+        <servlet-name>BancoServlet</servlet-name>
+        <url-pattern>/BancoServlet.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

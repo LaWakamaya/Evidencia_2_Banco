@@ -18,9 +18,9 @@
     
     <center><h1>BANCO BACEL </h1></center>
          <div class="container col-lg-3">
-           <form action="Principal">
+           <form action="BancoServlet.do" method="post">
             <div class=" form-group text-center">
-                 <img src="bacel.jpg" height="180" width="180">
+                 <img src="bacel.jpg" height="180" width="210">
                  <p><strong>Bienvenido al Banco Bacel </strong></p>
             </div>
                
