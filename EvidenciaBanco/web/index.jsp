@@ -1,8 +1,3 @@
-<%-- 
-    Document   : indexjsp
-    Created on : 26 abr. 2022, 14:33:48
-    Author     : alexa
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

@@ -1,8 +1,3 @@
-<%-- 
-    Document   : PrincipalCliente
-    Created on : 17 abr. 2022, 09:49:14
-    Author     : tania
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -18,7 +13,7 @@
         
     <center><h1>BIENVENIDO CLIENTE </h1></center>
          <div class="container col-lg-3">
-        <form action=" ">
+        <form action="BancoServlet.do "method= "post" >
              <div class=" form-group text-center">
                  <img src="bacel.jpg" height="180" width="180">
                 <p><strong>Eliga la opcion correspondiente dependiendo de la accion que requiera hacer </strong></p>

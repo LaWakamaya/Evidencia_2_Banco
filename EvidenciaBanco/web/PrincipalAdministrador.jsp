@@ -1,8 +1,4 @@
-<%-- 
-    Document   : PrincipalAdministrador
-    Created on : 17 abr. 2022, 09:04:08
-    Author     : tania
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -19,7 +15,7 @@
     <h1>BIENVENIDO ADMINISTRADOR </h1>
     
     <div class="container col-lg-3">
-        <form action=" ">
+        <form action="BancoServlet.do "method= "post" >
              <div class=" form-group text-center">
                  <img src="bacel.jpg" height="180" width="180">
                 <p><strong>Eliga la opcion correspondiente dependiendo de la accion que requiera hacer </strong></p>

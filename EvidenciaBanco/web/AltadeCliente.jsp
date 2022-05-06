@@ -1,8 +1,4 @@
-<%-- 
-    Document   : AltadeCliente
-    Created on : 13 abr. 2022, 21:04:23
-    Author     : tania
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -19,7 +15,7 @@
    
       <div class="container col-lg-3">
       
-         <form action="NewServlet" method="post">
+         <form action="BancoServlet.do" method="post">
            <div class=" form-group text-center">
             <img src="iconoo.png" height="180" width="180"  >
             <p><strong>Por favor ingrese los datos correspondientes<strong></p>

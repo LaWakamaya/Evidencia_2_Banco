@@ -20,7 +20,7 @@
     
     
      <div class="container col-lg-3">
-        <form action="Principal">
+        <form action="BancoServlet.do "method= "post" >
            <div class=" form-group text-center">
                <img src="transferen.PNG" height="180" width="180">
               

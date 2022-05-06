@@ -1,8 +1,4 @@
-<%-- 
-    Document   : DetallesCuentaCliente
-    Created on : 17 abr. 2022, 17:18:37
-    Author     : tania
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -20,7 +16,7 @@
     </center>
     
          <div class="container col-lg-3">
-        <form action=" ">
+        <form action="BancoServlet.do "method= "post" >
            <div class=" form-group text-center">
         <img src="cuenta.PNG" height="180" width="180">
            </div>

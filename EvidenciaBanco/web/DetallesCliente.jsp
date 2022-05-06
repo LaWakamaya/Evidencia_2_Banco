@@ -1,8 +1,4 @@
-<%-- 
-    Document   : DetallesCliente
-    Created on : 17 abr. 2022, 09:11:21
-    Author     : tania
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -20,7 +16,7 @@
         
          <div class="container col-lg-3">
       
-        <form action=" ">
+        <form action="BancoServlet.do " method= "post">
            <div class=" form-group text-center">
             <img src="iconoo.png" height="180" width="180"  >
             

@@ -1,8 +1,4 @@
-<%-- 
-    Document   : AltadeCuenta
-    Created on : 13 abr. 2022, 23:44:54
-    Author     : tania
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -18,7 +14,7 @@
     <center><h1>ALTA DE CUENTA </h1></center>
         
     <div class="container col-lg-3">
-        <form action="Principal">
+        <form action="BancoServlet.do"  method="post">
            <div class=" form-group text-center">
         <img src="cuenta.PNG" height="180" width="180">
          <p><strong>Por favor ingrese los datos correspondientes<strong></p>
