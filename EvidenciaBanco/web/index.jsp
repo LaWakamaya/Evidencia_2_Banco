@@ -25,10 +25,13 @@
             </div>
                
             <div class="form-group">
-                   <label>Clave de acceso:</label>
-                   <input type="password" maxlength="10" name="claveAcceso" value="">
+                  <label>Clave de acceso:</label> <br>
+                  <input type="password" maxlength="10" name="claveAcceso" value="">
             </div>
+               <br> 
+               
            <input class="btn  btn-danger btn-block" type="submit" name="Entrar" value="Entrar">
+           <br>
            <input class="btn  btn-danger btn-block" type="submit" name="Registrar" value="Registrarse">
           
         </form>
