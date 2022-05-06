@@ -16,9 +16,9 @@ import java.sql.Statement;
  * @author Alan Franco
  */
 public class ConexionBD {
-    private String nombreBD = "PersonasIMC";//REEMPLAZAR POR NOMBRE DE BASE DE DATOS
+    private String nombreBD = "banco";//REEMPLAZAR POR NOMBRE DE BASE DE DATOS
     private String user = "root";//REEMPLAZAR POR USER DE LA CONEXION LOCAL DE BD
-    private String pass = "admin";//REEMPLAZAR POR PASSWORD DE LA CONEXION LOCAL DE BD
+    private String pass = "99901u";//REEMPLAZAR POR PASSWORD DE LA CONEXION LOCAL DE BD
     private String url = "jdbc:mysql://localhost:3306/"+nombreBD+"?useUnicode=true"
             + "&useJDBCCompliantTimeZoneShift=true&useLegacyDateTimeCode=false"
             + "&serverTimezone=UTC";//ESTO ASI SE QUEDA
