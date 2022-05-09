@@ -11,83 +11,47 @@ package Datos;
  */
 public class Usuario {
     
-    private int idUsuario,CP,Telefono,IdNumerocuenta,TipoCuenta;
-    private String Nombre,Apellido,Direccion,Ciudad,Estado,Pais,FechaNacimiento,CorreoEletronico,Contrasena;
-    private boolean Administrador; 
-    private Double Monto;
-    
-    public Usuario(int idUsuario, int CP, int Telefono ,int IdNumerocuenta , int TipoCuenta, String Nombre, 
-            String Apellido,String Direccion,String Ciudad, String Estado, String Pais, String FechaNacimiento,
-            String CorreoEletronico,String Contrasena, boolean Administrador , Double Monto){
-        
-         this.idUsuario = idUsuario;
-         this.CP = CP;
-         this.Telefono = Telefono;
-         this.IdNumerocuenta = IdNumerocuenta;
-         this.TipoCuenta = TipoCuenta;
-         this.Nombre = Nombre;
-         this.Apellido = Apellido;
-         this.Direccion = Direccion;
-         this.Ciudad = Ciudad;
-         this.Estado = Estado;
-         this.Pais = Pais;
-         this.FechaNacimiento = FechaNacimiento;
-         this.CorreoEletronico = CorreoEletronico;
-         this.Contrasena = Contrasena;
-         this.Administrador = Administrador;
-         this.Monto = Monto;
-         
+    private int IdUsuario;
+    private String Nombre, Apellido, Direccion, CP, Ciudad, Estado, Pais,Telefono, FechaNacimiento, CorreoElectronico, Contraseña;
+    private int Admin;
 
+    public Usuario(int IdUsuario, String Nombre, String Apellido, String Direccion, String CP, String Ciudad, String Estado, String Pais, String Telefono, String FechaNacimiento, String CorreoElectronico, String Contraseña, int Admin) {
+        this.IdUsuario = IdUsuario;
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Direccion = Direccion;
+        this.CP = CP;
+        this.Ciudad = Ciudad;
+        this.Estado = Estado;
+        this.Pais = Pais;
+        this.Telefono = Telefono;
+        this.FechaNacimiento = FechaNacimiento;
+        this.CorreoElectronico = CorreoElectronico;
+        this.Contraseña = Contraseña;
+        this.Admin = Admin;
     }
 
-    Usuario(int idUsuario, int CP, int Telefono, int IdNumerocuenta, int TipoCuenta, String Nombre, String Apellido, String Direccion, String Ciudad, String Estado, String Pais, String FechaNacimiento, String CorreoEletronico, String string) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public Usuario(String Nombre, String Apellido, String Direccion, String CP, String Ciudad, String Estado, String Pais, String Telefono, String FechaNacimiento, String CorreoElectronico, String Contraseña, int Admin) {
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Direccion = Direccion;
+        this.CP = CP;
+        this.Ciudad = Ciudad;
+        this.Estado = Estado;
+        this.Pais = Pais;
+        this.Telefono = Telefono;
+        this.FechaNacimiento = FechaNacimiento;
+        this.CorreoElectronico = CorreoElectronico;
+        this.Contraseña = Contraseña;
+        this.Admin = Admin;
     }
-
-    Usuario(int idUsuario, int CP, int Telefono, int IdNumerocuenta, int TipoCuenta, String Nombre, String Apellido, String Direccion, String Ciudad, String Estado, String Pais, String FechaNacimiento, String CorreoEletronico, String Contrasena, boolean Administrador) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-    
-       
 
     public int getIdUsuario() {
-        return idUsuario;
+        return IdUsuario;
     }
 
-    public void setIdUsuario(int idUsuario) {
-        this.idUsuario = idUsuario;
-    }
-
-    public int getCP() {
-        return CP;
-    }
-
-    public void setCP(int CP) {
-        this.CP = CP;
-    }
-
-    public int getTelefono() {
-        return Telefono;
-    }
-
-    public void setTelefono(int Telefono) {
-        this.Telefono = Telefono;
-    }
-
-    public int getIdNumerocuenta() {
-        return IdNumerocuenta;
-    }
-
-    public void setIdNumerocuenta(int IdNumerocuenta) {
-        this.IdNumerocuenta = IdNumerocuenta;
-    }
-
-    public int getTipoCuenta() {
-        return TipoCuenta;
-    }
-
-    public void setTipoCuenta(int TipoCuenta) {
-        this.TipoCuenta = TipoCuenta;
+    public void setIdUsuario(int IdUsuario) {
+        this.IdUsuario = IdUsuario;
     }
 
     public String getNombre() {
@@ -114,6 +78,14 @@ public class Usuario {
         this.Direccion = Direccion;
     }
 
+    public String getCP() {
+        return CP;
+    }
+
+    public void setCP(String CP) {
+        this.CP = CP;
+    }
+
     public String getCiudad() {
         return Ciudad;
     }
@@ -138,6 +110,14 @@ public class Usuario {
         this.Pais = Pais;
     }
 
+    public String getTelefono() {
+        return Telefono;
+    }
+
+    public void setTelefono(String Telefono) {
+        this.Telefono = Telefono;
+    }
+
     public String getFechaNacimiento() {
         return FechaNacimiento;
     }
@@ -146,35 +126,31 @@ public class Usuario {
         this.FechaNacimiento = FechaNacimiento;
     }
 
-    public String getCorreoEletronico() {
-        return CorreoEletronico;
+    public String getCorreoElectronico() {
+        return CorreoElectronico;
     }
 
-    public void setCorreoEletronico(String CorreoEletronico) {
-        this.CorreoEletronico = CorreoEletronico;
+    public void setCorreoElectronico(String CorreoElectronico) {
+        this.CorreoElectronico = CorreoElectronico;
     }
 
-    public String getConstrasena() {
-        return Contrasena;
+    public String getContraseña() {
+        return Contraseña;
     }
 
-    public void setConstrasena(String Constrasena) {
-        this.Contrasena = Constrasena;
+    public void setContrasena(String Contraseña) {
+        this.Contraseña = Contraseña;
     }
 
-    public boolean isAdministrador() {
-        return Administrador;
+    public int getAdmin() {
+        return Admin;
     }
 
-    public void setAdministrador(boolean Administrador) {
-        this.Administrador = Administrador;
+    public void setAdmin(int Admin) {
+        this.Admin = Admin;
     }
-
-    public Double getMonto() {
-        return Monto;
-    }
-
-    public void setMonto(Double Monto) {
-        this.Monto = Monto;
-    }
+    
 }
+    
+
+    

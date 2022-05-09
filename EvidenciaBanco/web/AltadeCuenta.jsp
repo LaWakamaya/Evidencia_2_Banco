@@ -26,10 +26,6 @@
         </div>
         
           <div class="form-group">
-        <label>Numero de Cuenta:</label>
-        <input  class ="form-group" type ="number" name="numeroCuenta">
-        
-          <div class="form-group">
         <label>Tipo de Cuenta:</label>
         <input  class ="form-group" type ="text" name="TipoCuenta">
           </div>
@@ -39,11 +35,7 @@
         <input  class ="form-group" type ="number" name="monto">
         </div>
           
-            <div class="form-group">
-        <label>Fecha:</label>
-        <input  class ="form-group" type ="date" name="fecha">
-        </div>
-           <input class="btn  btn-danger btn-block" type="submit" name="Guardarcuenta" value="Guardar">
+           <input class="btn  btn-danger btn-block" type="submit" name="accion" value="Guardar cuenta">
               <br>
         <a href="PrincipalAdministrador.jsp">
             <input class="btn  btn-danger btn-block" type="button" value ="Pagina Principal">

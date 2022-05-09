@@ -29,25 +29,25 @@
         
          <div class="form-group">
         <label>Numero de Cuenta:</label>
-        <input  class ="form-group" type ="number" name="numeroCuentaa">
+        <input  class ="form-group" type ="number" name="cuentaOrigen">
         </div>
         
      <div class="form-group">
         <label>Numero de Cuenta a depositar:</label>
-        <input  class ="form-group" type ="number" name="CuentaDepositar">
+        <input  class ="form-group" type ="number" name="cuentaDestino">
         </div>
     
      <div class="form-group">
-        <label>Monton:</label>
-        <input  class ="form-group" type ="number" name="montonn">
+        <label>Monto:</label>
+        <input  class ="form-group" type ="number" name="monto">
         </div>
-             <input class="btn  btn-danger btn-block" type="submit" name="guardartrans" value="Transferir">
+             <input class="btn  btn-danger btn-block" type="submit" name="accion" value="Transferir">
              
              <br>
         <a href="PrincipalCliente.jsp">
         <input class="btn  btn-danger btn-block" type="button"  value=" Pagina Principal">
         </a>
              
-           
+        </form>
     </body>
 </html>

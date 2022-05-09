@@ -13,24 +13,24 @@
     
     <center><h1>BANCO BACEL </h1></center>
          <div class="container col-lg-3">
-           <form action="ServletAdministrador" method="post">
+           <form action="BancoServlet.do" method="post">
             <div class=" form-group text-center">
                  <img src="bacel.jpg" height="180" width="210">
                  <p><strong>Bienvenido al Banco Bacel </strong></p>
             </div>
                
             <div class="form-group">
-                 <label>Numero del cliente:</label>
-                 <input class ="form-group" type ="number" name="numCliente">
+                 <label>Correo Electronico:</label>
+                 <input class ="form-group" type ="text" name="correo">
             </div>
                
             <div class="form-group">
                   <label>Clave de acceso:</label> <br>
-                  <input type="password" maxlength="10" name="claveAcceso" value="">
+                  <input type="password" maxlength="10" name="pass" value="">
             </div>
                <br> 
                
-           <input class="btn  btn-danger btn-block" type="submit" name="Entrar" value="Entrar">
+           <input class="btn  btn-danger btn-block" type="submit" name="accion" value="Iniciar sesion">
            <br>
            
           

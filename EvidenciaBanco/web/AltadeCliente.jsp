@@ -72,10 +72,15 @@
         </div>
         
         <div class="form-group">
-        <label>Password:</label>
-        <input class ="form-group" type="password" maxlength="10" name="password" value="">
+        <label>Contraseña:</label>
+        <input class ="form-group" type="password" maxlength="10" name="password">
         </div>
-             <input class="btn  btn-danger btn-block" type="submit" name="Guardar" value="Entrar">
+             
+        <div class="form-group">
+        <label>Administrador:</label>
+        <input class ="form-group" type="number" name="admin">
+        </div>
+             <input class="btn  btn-danger btn-block" type="submit" name="accion" value="Guardar cliente">
              <br>
               <a href="PrincipalAdministrador.jsp">
             <input class="btn  btn-danger btn-block" type="button" value ="Pagina Principal">

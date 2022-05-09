@@ -20,18 +20,18 @@
             </div>
             
          <br>  
-         <a href="DetallesCuentaCliente.jsp">
-        <input class="btn  btn-danger btn-block" type="button"  value="Detalles de la Cuenta">
+         <!--a href="DetallesCuentaCliente.jsp"-->
+        <input class="btn  btn-danger btn-block" type="submit" name="accion" value="Cuentas">
          </a>
          <br>  
-         <a href="Transferencia.jsp">
-        <input class="btn  btn-danger btn-block" type="button"  value="Transferencia">
+         <a href="transferencia.jsp">
+        <input class="btn  btn-danger btn-block" type="submit" name="accion"  value="Transferencia">
         </a>
          <br>
-         <a href="ListaTransferencia.jsp">
-        <input class="btn  btn-danger btn-block" type="button"  value=" Lista de Transferencia">
+         <!--a href="ListaTransferencia.jsp"-->
+        <input class="btn  btn-danger btn-block" type="submit" name="accion"  value="Lista de Transferencias">
         </a>
          
-            
+        </form>
     </body>
 </html>
