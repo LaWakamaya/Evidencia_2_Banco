@@ -5,6 +5,7 @@
  */
 package Conexion.Banco;
 
+import Datos.Usuario;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -40,7 +41,10 @@ public class ConexionBD {
         }
         
     }
+      
     
+        
+
     /* EJEMPLO DE SELECT EN BASE DE DATOS
     public List<Usuarios> obtenerUsuarios() throws SQLException{
         List<Usuarios> users = new ArrayList<>(); //La funcion devuelve un objeto List del tipo del objeto que manejamos en java
@@ -86,5 +90,23 @@ public class ConexionBD {
         st.executeUpdate(query);
     }
     */
-    
+
+   public void AltaCliente(Usuario u) throws SQLException{
+        query = "INSERT INTO usuario() VALUES(" // Pongo la sentencia a ejecutar
+                //Se concatenan todos los parametros del objeto Usuario a guardar en la bd
+                // Las \" se utilizan para poner unas comillas dentro de la string para mandar la query
+                + "\"" + u.getNombre() + "\", "
+                + "\"" + u.getApellido()+ "\", "
+                + "\"" + u.getDireccion() + "\", "
+                + "\"" + u.getCP() + "\","
+                + "\"" + u.getCiudad() + "\", "
+                + "\"" + u.getEstado() + "\", "
+                + "\"" + u.getPais() + "\", "
+                 + "\"" + u.getTelefono() + "\","
+                + "\"" + u.getFechaNacimiento() + "\", "
+                + "\"" + u.getCorreoEletronico() + "\");";
+                
+        
 }
+   }
+    

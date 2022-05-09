@@ -24,7 +24,7 @@
         <input class="btn  btn-danger btn-block" type="button"  value="Detalles de la Cuenta">
          </a>
          <br>  
-         <a href="transferencia.jsp">
+         <a href="Transferencia.jsp">
         <input class="btn  btn-danger btn-block" type="button"  value="Transferencia">
         </a>
          <br>
