@@ -12,7 +12,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-/**
+/**v bbbn
  *
  * @author Alan Franco
  */
@@ -105,7 +105,18 @@ public class ConexionBD {
                  + "\"" + u.getTelefono() + "\","
                 + "\"" + u.getFechaNacimiento() + "\", "
                 + "\"" + u.getCorreoEletronico() + "\");";
-                
+        //ALEX no me permitio poner contraseña me marca error falta ese get 
+        }
+    
+     public void AltaCuenta( Usuario u) throws SQLException{
+        query = "INSERT INTO usuario() VALUES(" // Pongo la sentencia a ejecutar
+                //Se concatenan todos los parametros del objeto Usuario a guardar en la bd
+                // Las \" se utilizan para poner unas comillas dentro de la string para mandar la query
+                + "\"" + u.getIdUsuario() + "\", "
+                + "\"" + u.getMonto() + "\", "
+                + "\"" + u.getIdNumerocuenta()+ "\");" ;
+              //EN esta parte quise hacer lo de alta de cuenta tome los datos de la clase usuario pero 
+              //pero  faltan mas es el de fecha y tipo de cuenta no estan en la clase Usuario.java
         
 }
    }
