@@ -196,8 +196,8 @@ public class BancoServlet extends HttpServlet {
                     HttpSession sesion = request.getSession(true);
                     Usuario user = (Usuario) sesion.getAttribute("userSesion");
                     int idUser = user.getIdUsuario();
-                    if(cuentas.get(origen).getIdUsuario()==idUser && 
-                            cuentas.get(origen).getMonto() >= monto){
+                    if(cuentas.get(origen - 1).getIdUsuario()==idUser && 
+                            cuentas.get(origen - 1).getMonto() >= monto){
                         
                         Transferencia nuevaT = new Transferencia(idUser, origen, destino, monto);
                         
@@ -221,6 +221,20 @@ public class BancoServlet extends HttpServlet {
                     request.setAttribute("transferencias", trans);
 
                     RequestDispatcher view = request.getRequestDispatcher("ListaTransferencia.jsp");
+                    view.forward(request, response);
+                }
+                
+                case "Detalles de clientes":{
+                    obtenerDatos();
+                    request.setAttribute("users", users);
+                    RequestDispatcher view = request.getRequestDispatcher("DetallesCliente.jsp");
+                    view.forward(request, response);
+                }
+                
+                case "Detalles de cuentas":{
+                    obtenerDatos();
+                    request.setAttribute("cuentas", cuentas);
+                    RequestDispatcher view = request.getRequestDispatcher("DetallesCuenta.jsp");
                     view.forward(request, response);
                 }
             }

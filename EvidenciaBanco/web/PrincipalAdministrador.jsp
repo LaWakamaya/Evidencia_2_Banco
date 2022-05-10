@@ -30,12 +30,12 @@
             <input class="btn  btn-danger btn-block" type="button" value ="Alta de Cuenta">
             <br>
             
-            <a href="DetallesCliente.jsp">
-                <input class="btn  btn-danger btn-block" type="button" value="Detalles del cliente ">
+            <!--a href="DetallesCliente.jsp"-->
+                <input class="btn  btn-danger btn-block" type="submit" name="accion" value="Detalles de clientes">
             </a>
             <br>
-            <a href="DetallesCuenta.jsp">
-                <input class="btn  btn-danger btn-block" type="Button" value="Detalles de la Cuenta " >
+            <!--a href="DetallesCuenta.jsp"-->
+                <input class="btn  btn-danger btn-block" type="submit" name="accion" value="Detalles de cuentas" >
             </a>
             
         </form>

@@ -211,13 +211,13 @@ public class ConexionBD {
     
     public void UpdateMonto(Transferencia t) throws SQLException{
         List<Cuenta> cuentas = obtenerCuentas();
-        double nuevoMontoOrigen = (cuentas.get(t.getIdOrigen()).getMonto() - t.getMonto());
+        double nuevoMontoOrigen = (cuentas.get(t.getIdOrigen()-1).getMonto() - t.getMonto());
         query = "UPDATE cuenta SET "
                 + "Monto = " + nuevoMontoOrigen
                 + " WHERE IdCuenta = " + t.getIdOrigen() + ";";
         st.executeUpdate(query);
         
-        double nuevoMontoDestino = (cuentas.get(t.getIdDestino()).getMonto() + t.getMonto());
+        double nuevoMontoDestino = (cuentas.get(t.getIdDestino()-1).getMonto() + t.getMonto());
         query = "UPDATE cuenta SET "
                 + "Monto = " + nuevoMontoDestino
                 + " WHERE IdCuenta = " + t.getIdDestino() + ";";
